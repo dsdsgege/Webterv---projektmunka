@@ -5,13 +5,13 @@
 }
 
 body {
-    background: url(img/hatter1.jpeg);
+    background: url(img/hatterek/hatter1.jpeg);
     background-size: cover;
 }
 
 
 #urlapok body {
-    background: url(img/hatter.jpeg) no-repeat;
+    background: url(img/hatterek/hatter.jpeg) no-repeat;
     background-size: cover;
 }
 
@@ -33,22 +33,22 @@ header {
 
 .logo {
     position: fixed;
-    top: -1.5%;
+    top: -5%;
     left: 5%;
     font-weight: bolder;
     user-select: none;
     color: #C21E56;
     font-family: 'Crimson Pro';
-    font-size: 200%;
+    font-size: 300%;
 }
 
 .logo img {
     display: inline-block;
     position: absolute;
-    top: -4.5px;
+    top: -0.5px;
     user-select: none;
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
     mix-blend-mode: multiply;
 }
 
@@ -336,21 +336,23 @@ fieldset input[type="submit"]:hover {
     color: brown;
     text-align: justify;
     height: 10%;
-    padding: 10px;
-    width: 70%;
-    margin-left: 15%;
+    padding: 1%;
+    width: 90%;
+    margin-left: 5%;
     background-color: ivory;
     border: brown solid 2px;
     border-radius: 6px;
     font-size: 22px;
+    margin-top: 130px;
 }
 
-#ism-doboz {
+.kisdoboz h2 {
+    font-family: Crimson Pro;
+    padding: 0%;
+    margin: 0% 1%;
+}
+
+.kisdoboz hr {
     border: 2px brown solid;
     border-radius: 6px;
-    background-color: ivory;
-    width: 70%;
-    height: auto;
-    margin: 10% 15%;
-    z-index: 1;
 }
