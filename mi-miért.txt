@@ -1,0 +1,7 @@
+HTML:
+
+
+
+CSS:
+-user-select: none (Nem lehet kijelölni a felhasználó által, mintha nem is betű, hanem kép lenne)
+-position: relative (altalunk meghatározott modon eltolhatjuk az elemeket, relatívan)

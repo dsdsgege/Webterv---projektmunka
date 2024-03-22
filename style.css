@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(img/background_3_v2.jpg) no-repeat;
+    background-size: cover;
+}
+/*
+#home body {
+    background: url(img/background_3_v2.jpg) no-repeat;
+    background-size: cover;
+}
+*/
+
+#urlapok body {
+    background: url(img/background_3_v2.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0% 5%;
+    display: flex;
+    justify-content: right;
+    background-color: ivory;
+    border-bottom: 3px solid brown;
+    z-index: 100;
+    height: 75px;
+}
+
+.logo {
+    position: fixed;
+    top: -1.5%;
+    left: 5%;
+    font-weight: bolder;
+    user-select: none;
+    color: #C21E56;
+    font-family: 'Crimson Pro';
+    font-size: 200%;
+}
+
+.logo img {
+    display: inline-block;
+    position: absolute;
+    top: -4.5px;
+    user-select: none;
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: multiply;
+}
+
+.navigation a {
+    position: relative;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(165, 42, 42);
+    text-decoration: none;
+    margin: 20px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.navigation button {
+    width: 100px;
+    height: 40px;
+    color: ivory;
+    font-weight: bold;
+    background: brown;
+    border-radius: 5px;
+    border-color: brown;
+    cursor: pointer;
+}
+
+.navigation button:hover {
+    color: brown;
+    background-color: ivory;
+
+}
+
+#cart {
+    width: 40px;
+    text-decoration: none;
+    top: 16px;
+}
+
+@media only screen and (max-width: 984px) {
+    .navigation {
+        display: none;
+    }
+    .logo img {
+        top: -4.5px;
+    }
+    #burger img {
+        display: block;
+        width: 5px;
+    }
+}
+
+#bemutatkoz {
+    color: brown;
+    text-align: justify;
+    height: 10%;
+    padding: 10px;
+    width: 70%;
+    margin-left: 15%;
+    background-color: ivory;
+    border: brown solid 2px;
+    border-radius: 6px;
+    font-size: 22px;
+    margin-top: 160px;
+}
+
+iframe {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 60px;
+    border: 2px solid #C21E56;
+    border-radius: 6px;
+    height: 360px;
+}
+
+.shop {
+    padding: auto;
+}
+
+#urlapok body {
+    margin: 50% 50%;
+}
+
+#urlapok fieldset {
+    border: 3px solid #C21E56;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(100, 100, 100, 0.7);
+    padding-bottom: 10px;
+
+}
+
+#urlapok input {
+    padding: 5px;
+    margin-bottom: 12px;
+    z-index: 1;
+}
+
+#urlapok input[type="text"] {
+    background-color: ivory;
+    border: 0px;
+}
+
+#urlapok input[type="email"] {
+    background-color: ivory;
+    border: 0px;
+}
+
+#urlapok input[type="password"] {
+    background-color: ivory;
+    border: 0px;
+}
+
+#urlapok p {
+    margin: 0px;
+    color: ivory;
+}
+
+#urlapok label {
+    color: ivory;
+}
+
+#urlapok form a {
+    color: #e803b6;
+    font-weight: bold;
+}
+#urlapok form a:hover {
+    color: rgb(255, 3, 58);
+}
+
+#urlapok form {
+    margin: 150px;
+}
+
+#urlapok h1 {
+    margin: 10px;
+    color: ivory;
+    stroke: #C21E56;
+    stroke-width: 2px;
+}
+
+fieldset input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    color: ivory;
+    font-weight: bold;
+    background: #C21E56;
+    border-radius: 7px;
+    border-color: #C21E56;
+    cursor: pointer;
+}
+fieldset input[type="submit"]:hover {
+    color: #C21E56;
+    background-color: ivory;
+}
+
+#urlapok img {
+    z-index: 99;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    position: absolute;
+    top: -45px;
+    left: -35px;
+    
+}
+
+#kerdes div {
+    position: absolute;
+    top: 50%;
+}
+
+#gyik{
+    background-color: darkslategrey;
+}
+
+#ism-doboz {
+    border: 2px brown solid;
+    border-radius: 6px;
+    background-color: ivory;
+    width: 70%;
+    height: auto;
+    margin: 10% 15%;
+    z-index: 1;
+}
+#gyik {
+    font-family: "Crimson Pro";
+    font-size: 18px;
+    background: url(img/background_3_v2.jpg) no-repeat;
+    background-size: cover;
+}
+#box {
+    margin-top: 8%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    width: 60%;
+    height: 80%;
+    z-index: 95;
+    background-color: #111a48;
+    border-radius: 20px;    
+    border: lightgoldenrodyellow solid 3px;
+}
+.avatarP {
+    margin-top: 3%;
+    margin-left: 18%;
+    padding-bottom:2%;
+    text-align:left;
+}
+.ourP {
+    margin-top: 3%;
+    margin-left: 18%;
+    padding-bottom:2%;
+    text-align: right;
+}
+.avatar hr {
+    background-color: lightgoldenrodyellow;
+    border: lightgoldenrodyellow solid 1px;
+    border-radius: 10px;
+    margin-left: 25%;
+    width: 50%;
+    height: 1px;
+}
+.avatar {
+    color: lightgoldenrodyellow;
+    background-color: #0e1538;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    height: 40%;
+    width: 70%;
+    border: lightgoldenrodyellow solid 3px;
+    border-radius: 20px;
+    padding: 3%;
+}
+.avatar form {
+    margin-left: 18%;
+}
+.avatar textarea {
+    margin-top: 5%;
+    background-color: #111a48;
+    color:lightgoldenrodyellow ;
+    padding: 2%;
+    border-radius: 5px;
+}
+.our {
+    margin-top: 20px;
+    margin-bottom: 0%;
+    height: 80px;
+    width: 80px;
+    border: lightgoldenrodyellow solid;
+    border-radius: 100%;
+    float: right;
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+.our:hover {
+    transition: 1s;
+    scale: 1.3;
+}
+.avatar_pic {
+    margin-top: auto;
+    height: 80px;
+    width: 80px;
+    border: lightgoldenrodyellow solid;
+    border-radius: 100%;
+    float:left;
+}
+.avatar_pic:hover {
+    transition: 1s;
+    scale: 1.3;
+}
+
+
