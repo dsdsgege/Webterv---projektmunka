@@ -489,11 +489,11 @@ table img {
 
 .iframe h2 {
     position: fixed;
-    top: -9%;
-    left: 38%;
+    top: -3%;
+    left: 41%;
     font-weight: bolder;
     user-select: none;
     color: ivory;
     font-family: 'Crimson Pro';
-    font-size: 300%;
+    font-size: 200%;
 }
