@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(img/hatterek/hatter2.jpeg);
+    background: url(img/hatterek/hatter1.jpeg);
     background-size: cover;
 }
 
@@ -21,8 +21,8 @@ header {
     padding: 0% 5%;
     display: flex;
     justify-content: right;
-    background-color: ivory;
-    border-bottom: 3px solid brown;
+    background-color: #0e1538;
+    border-bottom: 3px solid ivory;
     z-index: 100;
     height: 75px;
 }
@@ -33,7 +33,7 @@ header {
     left: 5%;
     font-weight: bolder;
     user-select: none;
-    color: #C21E56;
+    color: ivory;
     font-family: 'Crimson Pro';
     font-size: 300%;
 }
@@ -52,7 +52,7 @@ header {
     position: relative;
     font-size: larger;
     font-weight: bold;
-    color: rgb(165, 42, 42);
+    color: ivory;
     text-decoration: none;
     margin: 20px;
 }
@@ -65,17 +65,18 @@ header {
 .navigation button {
     width: 100px;
     height: 40px;
-    color: ivory;
+    color: #0e1538;
     font-weight: bold;
-    background: brown;
+    background: ivory;
     border-radius: 5px;
-    border-color: brown;
+    border-color: ivory;
     cursor: pointer;
+    padding: 0%;
 }
 
 .navigation button:hover {
-    color: brown;
-    background-color: ivory;
+    color: ivory;
+    background-color: #0e1538;
 
 }
 
@@ -85,7 +86,7 @@ header {
     top: 16px;
 }
 
-@media only screen and (max-width: 984px) {
+@media only screen and (max-width: 1072px) {
     .navigation {
         display: none;
     }
@@ -104,24 +105,24 @@ header {
 /* Index kezdete: */
 
 #bemutatkoz {
-    color: brown;
+    color: ivory;
     text-align: justify;
     height: 10%;
     padding: 10px;
     width: 70%;
     margin-left: 15%;
-    background-color: ivory;
-    border: brown solid 2px;
+    background-color: rgba(14, 21, 56);
+    border: ivory solid 2px;
     border-radius: 6px;
     font-size: 22px;
-    margin-top: 160px;
+    margin-top: 130px;
 }
 
 iframe {
     width: 70%;
     margin-left: 15%;
     margin-top: 60px;
-    border: 2px solid #C21E56;
+    border: 2px solid ivory;
     border-radius: 6px;
     height: 360px;
 }
@@ -331,14 +332,14 @@ fieldset input[type="submit"]:hover {
 /* Imsertető kezdete: */
 
 .kisdoboz {
-    color: brown;
+    color: ivory;
     text-align: justify;
     height: 10%;
     padding: 1%;
     width: 90%;
     margin-left: 5%;
-    background-color: ivory;
-    border: brown solid 2px;
+    background-color: #0e1538;
+    border: ivory solid 2px;
     border-radius: 6px;
     font-size: 22px;
     text-align: left;
@@ -371,12 +372,12 @@ fieldset input[type="submit"]:hover {
 }
 
 .kisdoboz hr {
-    border: 2px brown solid;
+    border: 2px ivory solid;
     border-radius: 6px;
 }
 .kisdoboz img {
     width: 240px;
-    border: 2px brown solid;
+    border: 2px ivory solid;
     border-radius: 6px;
     float: right;
 }
@@ -388,12 +389,6 @@ fieldset input[type="submit"]:hover {
     font-family: "Crimson Pro";
 }
 
- h2 {
-    font-size:200%;
-    color: white;
-}
-
-
 .cart_table table{
     margin-top:7%;
     margin-left:10%;
@@ -403,7 +398,7 @@ fieldset input[type="submit"]:hover {
     border-radius:10px;
     font-size: larger;
     backdrop-filter: blur(8px);
-    background-color:rgba(14, 21, 56, 0.8);
+    background-color:#0e1538cc;
     border: lightgoldenrodyellow solid 2px;
 }
 
@@ -488,4 +483,17 @@ table img {
     border: lightgoldenrodyellow solid 1px;
     float: right;
     margin-right: 2%;
+}
+
+/* iframe-ken belüli tartalmak: */
+
+.iframe h2 {
+    position: fixed;
+    top: -9%;
+    left: 38%;
+    font-weight: bolder;
+    user-select: none;
+    color: ivory;
+    font-family: 'Crimson Pro';
+    font-size: 300%;
 }
