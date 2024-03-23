@@ -371,11 +371,10 @@ fieldset input[type="submit"]:hover {
     border-radius: 6px;
 }
 .kisdoboz img {
-    width: 20%;
+    width: 240px;
     border: 2px brown solid;
     border-radius: 6px;
     float: right;
-    size: 20%;
 }
 
 
@@ -384,12 +383,6 @@ fieldset input[type="submit"]:hover {
 .cart_table {
     font-family: "Crimson Pro";
 }
-
- h2 {
-    font-size:200%;
-    color: white;
-}
-
 
 .cart_table table{
     margin: auto;
