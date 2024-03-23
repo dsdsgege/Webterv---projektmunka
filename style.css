@@ -343,6 +343,11 @@ fieldset input[type="submit"]:hover {
     border: brown solid 2px;
     border-radius: 6px;
     font-size: 22px;
+    text-align: left;
+    margin-top: 55px
+}
+
+#vacak {
     margin-top: 130px;
 }
 
@@ -352,7 +357,29 @@ fieldset input[type="submit"]:hover {
     margin: 0% 1%;
 }
 
+.kisdoboz h3 {
+    font-size: 110%;
+    margin: 0;
+    margin-left: 2px;
+    margin-bottom: 1px;
+}
+
+.kisdoboz p {
+    margin-top: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    padding: 5px;
+}
+
 .kisdoboz hr {
     border: 2px brown solid;
     border-radius: 6px;
+}
+.kisdoboz img {
+    width: 20%;
+    border: 2px brown solid;
+    border-radius: 6px;
+    float: right;
+    size: 20%;
 }
