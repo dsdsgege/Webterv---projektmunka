@@ -77,7 +77,7 @@ header {
 
 }
 
-#cart {
+#cart_img {
     width: 40px;
     text-decoration: none;
     top: 16px;
@@ -95,6 +95,7 @@ header {
         width: 5px;
     }
 }
+
 
 /* Navigáció vége. */
 
@@ -131,6 +132,10 @@ iframe {
 
 /* Űrlapok kezdete: */
 
+#urlapok body {
+    margin: 50% 50%;
+}
+
 #urlapok fieldset {
     border: 3px solid #C21E56;
     width: 30%;
@@ -144,7 +149,7 @@ iframe {
 #urlapok input {
     padding: 5px;
     margin-bottom: 12px;
-    z-index: 1;
+    
 }
 
 #urlapok input[type="text"] {
@@ -201,7 +206,7 @@ fieldset input[type="submit"]:hover {
     background-color: ivory;
 }
 
-#urlapok img {
+#login_rose {
     z-index: 99;
     width: 120px;
     height: 120px;
@@ -376,14 +381,49 @@ fieldset input[type="submit"]:hover {
 
 /* cart kezdete */
 
-#cart h1 {
-    font-size: 200%;
-}
-#cart main {
-    width: 80%;
-    background-color: #0e1538;
+.cart_table {
+    font-family: "Crimson Pro";
 }
 
-#cart table {
-    margin-left: 50%;   
+ h2 {
+    font-size:200%;
+    color: white;
+}
+
+
+.cart_table table{
+    margin: auto;
+    color: lightgoldenrodyellow;
+    width: 80%;
+    background-color: #0e1538;
+    border-radius:10px;
+    
+}
+
+.cart_table a {
+    color: lightgoldenrodyellow;
+    margin: auto auto;
+}
+
+.cart_table tr {
+    border: red solid 2px;
+    border-radius: 5px;
+}
+
+.cart_table input {
+    background-color: lightgoldenrodyellow;
+    color:#111a48;
+    
+}
+.cart_table td {
+    border: red solid 3px;
+    text-align: center;
+}
+
+table img {
+    margin-top: 10%;
+    margin-bottom:10%;
+    width: 100px;
+    height: 100px;
+    border-radius:5px;
 }
