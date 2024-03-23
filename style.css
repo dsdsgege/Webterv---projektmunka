@@ -384,3 +384,14 @@ fieldset input[type="submit"]:hover {
     float: right;
     size: 20%;
 }
+
+
+/* cart kezdete */
+#cart main {
+    width: 80%;
+    background-color: #0e1538;
+}
+
+#cart table {
+    margin-left: 50%;   
+}
