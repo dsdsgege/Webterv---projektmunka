@@ -4,51 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kosár</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body id="cart">
     <header>
-
+        <h2 class="logo">
+            Rose Dealers
+            <img src="img/navi/rose.png" alt="rose">
+        </h2>
+        <nav class="navigation">
+            <a href="index.html">Kezdőlap</a>
+            <a href="ismerteto.html">Ismertető</a>
+            <a href="#shop.html">Shop</a>
+            <a href="gyik.html">GY.I.K.</a>
+            <a href="#cart.html" id="cart" ><img src="img/navi/cart.png" id="cart" alt="kosarad">  </a>
+            <a href="bejelentkezes.html" id="gomb"><button>Bejelentkezés</button></a>
+        </nav>
 
     </header>
 
     <main> 
         <h1>Kosarad tartalma</h2>
             <div id="cart_table">
-                <table>
-                    
-                    <tr>
-                        <td class="cart_img"> <img src="img/rozsak/bianca.jpg" alt="bianca rozsa"></td>
-                        <td class="cart_product"> <a href="#bianca">Bianca rózsa</a></td>
-                        <td class="cart_quantity"> 2 db</td>
-                        <td class="cart_price">1000 Ft/db</td>
-                        <td class="favorite">Megjelölés kedvencként</td>
-                    </tr>
-                    <tr>
-                        <td class="cart_img"></td>
-                        <td class="cart_product"></td>
-                        <td class="cart_quantity"></td>
-                        <td class="cart_price"></td>
-                        <td class="favorite"></td>
-                    </tr>
-                    <tr>
-                        <td class="cart_img"></td>
-                        <td class="cart_product"></td>
-                        <td class="cart_quantity"></td>
-                        <td class="cart_price"></td>
-                        <td class="favorite"></td>
-                    </tr>
-                    <tr>
-                        <td class="cart_img"></td>
-                        <td class="cart_product"></td>
-                        <td class="cart_quantity"></td>
-                        <td class="cart_price"></td>
-                        <td class="favorite"></td>
-                    </tr>
+                <tbody>
+                    <table>
+                        
+                        <tr>
+                            <td class="cart_img"> <img src="img/rozsak/bianca.jpg" alt="bianca rozsa"></td>
+                            <td class="cart_product"> <a href="#bianca">Bianca rózsa</a></td>
+                            <td class="cart_quantity"> 2 db</td>
+                            <td class="cart_price">1000 Ft/db</td>
+                            <td> <input type="checkbox" checked="checked" name="kedvenc" id="favorite" value="favorite_butt"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="cart_img"></td>
+                            <td class="cart_product"></td>
+                            <td class="cart_quantity"></td>
+                            <td class="cart_price"></td>
+                            <td> <input type="checkbox" checked="checked" name="kedvenc" id="favorite" value="favorite_butt"></td>                    
+                        </tr>
+
+                        <tr>
+                        
+                            <td class="cart_img"></td>
+                            <td class="cart_product"></td>
+                            <td class="cart_quantity"></td>
+                            <td class="cart_price"></td>
+                            <td> <input type="checkbox" checked="checked" name="kedvenc" id="favorite" value="favorite_butt"></td>                    
+                        </tr>
+
+                        <tr>
+                            <td class="cart_img"></td>
+                            <td class="cart_product"></td>
+                            <td class="cart_quantity"></td>
+                            <td class="cart_price"></td>
+                            <td> <input type="checkbox" checked="checked" name="kedvenc" id="favorite" value="favorite_butt"></td>
+                        </tr>
 
 
 
 
-                </table>
+                    </table>
+                </tbody>
             </div>
 
     </main>

@@ -387,6 +387,10 @@ fieldset input[type="submit"]:hover {
 
 
 /* cart kezdete */
+
+#cart h1 {
+    font-size: 200%;
+}
 #cart main {
     width: 80%;
     background-color: #0e1538;
