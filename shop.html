@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <header>
+            <h2 class="logo">
+                Rose Dealers
+                <img src="img/navi/rose.png" alt="rose">
+            </h2>
+            <nav class="navigation">
+                <a href="index.html">Kezdőlap</a>
+                <a href="ismerteto.html">Ismertető</a>
+                <a href="shop.html">Shop</a>
+                <a href="gyik.html">GY.I.K.</a>
+                <a href="cart.html" id="cart_img"><img src="img/navi/cart.png" id="cart_img" alt="kosarad">  </a>
+                <a href="bejelentkezes.html" id="gomb"><button>Bejelentkezés</button></a>
+            </nav>
+        </header>
+    </header>
+
+    <main id="shop_main">
+        <div class="sidebar">
+            <input type="checkbox" name="checkbox" id="szal" checked = "checked"> Rózsaszál, csokor <br>
+            <input type="checkbox" name="checkbox" id="to" checked = "checked"> Rózsatő
+        </div>
+
+        <div class="egyedi">
+            <form >
+                <h1>Egyedi megrendelés:</h1>
+                <select name="egyedi">
+                    <option value="egyedi_csokor">Egyedi csokor</option>
+                    <option value="sajat_fajta">Egyedi fajta</option>
+                    <option value="ami_nincs">Olyan fajta, ami a shop-ban nincs</option>
+                    <option value="egyeb"> egyéb</option>
+                </select>
+                <textarea name="reszletez" id="reszlet" cols="40" rows="5">Kérlek részletezd megrendelésed...</textarea>
+                <button>Küldés</button>
+            </form>
+
+        </div>
+
+        <div class="shop_table">
+            
+
+
+        </div>
+    </main>
+
+</body>
+</html>
