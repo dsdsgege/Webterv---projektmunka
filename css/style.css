@@ -65,8 +65,8 @@ header {
     margin-left: 20px;
 }
 
-.navigation button {
-    width: 100px;
+#gomb {
+    width: 120px;
     height: 40px;
     color: #0e1538;
     font-weight: bold;
@@ -74,17 +74,24 @@ header {
     border-radius: 5px;
     border-color: lightgoldenrodyellow;
     cursor: pointer;
-    padding: 0%;
-    
+    padding: 1%;
+    display: inline-block;
 }
 
-.navigation button:hover {
+#gomb:hover {
+    border: lightgoldenrodyellow solid 2px;
+    display: inline-block;
     color: lightgoldenrodyellow;
     background-color: #0e1538;
 
 }
 
 #cart_img {
+    width: 40px;
+    text-decoration: none;
+    top: 16px;
+}
+#cart_img2 {
     width: 40px;
     text-decoration: none;
     top: 16px;
@@ -116,7 +123,7 @@ header {
     width: 70%;
     margin-left: 15%;
     background-color: rgba(14, 21, 56);
-    border: lightgoldenrodyellow solid 2px;
+    border: #fafad2 solid 2px;
     border-radius: 6px;
     font-size: 22px;
     margin-top: 10%;
@@ -144,12 +151,10 @@ iframe {
     border: 3px solid lightgoldenrodyellow;
     width: 30%;
     text-align: center;
-    margin-top: 13%;
+    margin: auto;
     border-radius: 15px;
     backdrop-filter: blur(5px);
     background-color: rgba(14, 21, 56, 0.7);
-    margin-left: 35%;
-    color: lightgoldenrodyellow;
 }
 
 /* Űrlapok kezdete: */
@@ -519,9 +524,10 @@ table img {
 /* Shop kezdete */
 
 .sidebar {
+    position: relative;
     height: 80%;
     width: 30%;
-    margin-top: 10%;
+    margin-top: 5%;
     padding-top: 20px;
     border-radius:5px;
     border: lightgoldenrodyellow solid 2px;
@@ -547,7 +553,6 @@ table img {
     color:#0e1538;
     background-color: lightgoldenrodyellow;
     border-radius: 5px;
-    margin-bottom: 5%;
 }
 
 .sidebar button {
