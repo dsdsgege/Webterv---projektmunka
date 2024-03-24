@@ -510,3 +510,133 @@ table img {
     font-family: 'Crimson Pro';
     font-size: 200%;
 }
+
+/* Shop kezdete */
+
+.sidebar {
+    height: 80%;
+    width: 30%;
+    margin-top: 5%;
+    padding-top: 20px;
+    border-radius:5px;
+    border: ivory solid 2px;
+    backdrop-filter: blur(8px);
+    background-color:rgba(14, 21, 56, 0.8);
+    margin-left:1%;
+    color:ivory;
+    font-size: 120%;
+}
+.sidebar input {
+    margin-left: 5%;
+}
+.sidebar form {
+    margin-left: 3%;
+}
+.sidebar form select {
+    color:#0e1538;
+    margin-bottom: 2%;
+    background-color: ivory;
+    border-radius: 5px;
+}
+.sidebar form textarea {
+    color:#0e1538;
+    background-color: ivory;
+    border-radius: 5px;
+}
+
+.sidebar button {
+    position: absolute;
+    top:80%;
+    left: 60%;
+    margin-left: 5%;
+    background-color: ivory;
+    color:#111a48;
+    font-style: bold;
+    border-radius:5px;
+    border: #0e1538 solid 1px;
+}
+.sidebar button:hover {
+    margin-left: 5%;
+    background-color: #0e1538;
+    color:ivory;
+    font-style: bold;
+    border-radius:5px;
+    border: ivory solid 1px;
+    cursor: pointer;
+}
+
+.shop_table table {
+    top:12%;
+    margin-left: 35%;
+    position: absolute;
+    width: 60%;
+}
+.shop_table img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-left:10%;
+    margin-bottom:10%;
+    margin-top:5%;
+}
+
+.container {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    text-align: center;
+    display: block;
+    opacity: 0; 
+    transition:  0.5s ease; 
+}
+
+.overlay h3 {
+    color: ivory;  
+    position: relative;
+    left: 0%;
+    text-align: center;
+}
+
+.overlay button {
+    position: relative;
+    left: 0%;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s ease; 
+}
+
+.overlay button {
+    opacity: 1;
+    cursor: pointer;
+    margin-left: 5%;
+    background-color: ivory;
+    color:#111a48;
+    font-style: bold;
+    border-radius:5px;
+    border: #0e1538 solid 1px;
+
+}
+
+/* ezt a részt még javítani kell*/
+/* mert ha rámegyünk a button-ra,
+az opacity is visszamegy, esetleg
+úgy lehetn hogy nem az img:hovert állítjuk
+hanem valahogy a container:hovert*/
+.shop_table img:hover + .overlay {
+    opacity: 1; 
+    
+}
+.shop_table img:hover {
+    
+    transition: 0.5s;
+    opacity: 0.3; 
+}
+.overlay button:hover {
+    display:block;
+    transition: 0.5s ease;
+    opacity: 1;
+}
