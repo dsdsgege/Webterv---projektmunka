@@ -388,6 +388,8 @@ fieldset input[type="submit"]:hover {
     border: 2px ivory solid;
     border-radius: 6px;
     float: right;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 
@@ -398,7 +400,7 @@ fieldset input[type="submit"]:hover {
 }
 
 .cart_table table{
-    margin-top:7%;
+    margin-top:10%;
     margin-left:10%;
     color: lightgoldenrodyellow;
     width: 80%;
@@ -493,6 +495,8 @@ table img {
     margin-right: 2%;
 }
 
+/* Cart vége */
+
 /* iframe-ken belüli tartalmak: */
 
 .iframe h2 {
@@ -503,4 +507,23 @@ table img {
     color: ivory;
     font-family: 'Crimson Pro';
     font-size: 200%;
+}
+
+/* Shop kezdete: */
+
+.shop_table table{
+    margin-top:10%;
+    margin-left:10%;
+    color: ivory;
+    width: 80%;
+    background-color: rgb(14, 21, 56);
+    border-radius:10px;
+    font-size: larger;
+    backdrop-filter: blur(8px);
+    background-color:#0e1538cc;
+    border: ivory solid 2px;
+    text-align: center;
+}
+
+.shop_table td {
 }
