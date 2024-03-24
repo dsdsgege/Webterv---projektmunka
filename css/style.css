@@ -238,16 +238,6 @@ fieldset input[type="submit"]:hover {
     top: 50%;
 }
 
-#gyik{
-    background-color: darkslategrey;
-}
-
-#gyik {
-    font-family: "Crimson Pro";
-    font-size: 18px;
-    background: url(img/background_3_v2.jpg) no-repeat;
-    background-size: cover;
-}
 #box {
     margin-top: 10%;
     margin-left: auto;
