@@ -388,6 +388,8 @@ fieldset input[type="submit"]:hover {
     border: 2px ivory solid;
     border-radius: 6px;
     float: right;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 
@@ -398,7 +400,7 @@ fieldset input[type="submit"]:hover {
 }
 
 .cart_table table{
-    margin-top:7%;
+    margin-top:10%;
     margin-left:10%;
     color: lightgoldenrodyellow;
     width: 80%;
@@ -495,6 +497,8 @@ table img {
     cursor: pointer;
 }
 
+/* Cart vége */
+
 /* iframe-ken belüli tartalmak: */
 
 .iframe h2 {
@@ -505,80 +509,4 @@ table img {
     color: ivory;
     font-family: 'Crimson Pro';
     font-size: 200%;
-}
-
-/* shop kezdete */
-
-.sidebar {
-    margin-left:3%;
-    font-size: 120%;
-    color:ivory;
-    margin-top: 8%;
-    height: 40%;
-    width: 20%;
-    position:relative;
-    z-index: 101;
-    backdrop-filter: blur(8px);
-    background-color:rgba(14, 21, 56, 0.8);
-    padding-top: 20px;
-    border-radius: 5px;
-    padding: 1%;
-    border: ivory solid 1px;
-
-}
-
-.egyedi {
-    width: 67%;
-    padding: 1%;
-    backdrop-filter: blur(8px);
-    background-color:rgba(14, 21, 56, 0.8);
-    color:ivory;
-    margin-top:8%;
-    top:0;
-    position: absolute;
-    margin-left: 26%;
-    border-radius: 5px;
-    border: ivory solid 2px;
-}
-.egyedi textarea {
-    float:right;
-    margin-right: 20%;
-    position: relative;
-    margin-left:38%;
-    border-radius: 5px;
-    background-color: ivory;
-    color:#0e1538;
-}
-.egyedi select {
-    background-color: ivory;
-    color:#0e1538;
-    border-radius: 5px;
-    position: absolute;
-}
-
-#shop_main form button {
-    background-color: ivory;
-    color:#111a48;
-    font-style: bold;
-    border-radius:5px;
-    border: #111a48 solid 1px;
-    
-    margin-right: 2%;
-    float:right;
-    
-}
-#shop_main form button:hover {
-    background-color:#111a48;
-    color:ivory;
-    font-style: bold;
-    border-radius:5px;
-    border: ivory solid 1px;
-    margin-left:5%;
-    margin-right: 2%;
-    cursor: pointer;
-    float: right;
-}
-
-.egyedi h1 {
-    margin-top: 0%;
 }
