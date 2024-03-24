@@ -506,7 +506,7 @@ table img {
 .sidebar {
     height: 80%;
     width: 30%;
-    margin-top: 5%;
+    margin-top: 10%;
     padding-top: 20px;
     border-radius:5px;
     border: lightgoldenrodyellow solid 2px;
@@ -532,6 +532,7 @@ table img {
     color:#0e1538;
     background-color: lightgoldenrodyellow;
     border-radius: 5px;
+    margin-bottom: 5%;
 }
 
 .sidebar button {
