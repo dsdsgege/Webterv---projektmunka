@@ -137,6 +137,19 @@ iframe {
 
 /*Index vége */
 
+/* Profil kezdete */
+
+#profile {
+    font-family: 'Crimson Pro';
+    border: 3px solid lightgoldenrodyellow;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(14, 21, 56, 0.7);
+}
+
 /* Űrlapok kezdete: */
 
 #urlapok body {
@@ -631,4 +644,4 @@ hanem valahogy a container:hovert*/
     opacity: 1;
 }
 
-/* cart vége */
+/* shop vége */
