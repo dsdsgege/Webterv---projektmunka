@@ -144,10 +144,12 @@ iframe {
     border: 3px solid lightgoldenrodyellow;
     width: 30%;
     text-align: center;
-    margin: auto;
+    margin-top: 13%;
     border-radius: 15px;
     backdrop-filter: blur(5px);
     background-color: rgba(14, 21, 56, 0.7);
+    margin-left: 35%;
+    color: lightgoldenrodyellow;
 }
 
 /* Űrlapok kezdete: */
